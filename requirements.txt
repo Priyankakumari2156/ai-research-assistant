@@ -1,3 +1,5 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+
 fastapi==0.138.1
 uvicorn[standard]
 
@@ -11,7 +13,8 @@ pydantic==2.13.4
 
 python-multipart
 
-sentence-transformers==5.6.0
+torch==2.8.0
+sentence-transformers==5.1.0
 
 qdrant-client==1.18.0
 
