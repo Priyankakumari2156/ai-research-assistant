@@ -1,6 +1,26 @@
-venv/
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.egg-info/
+
+# Virtual environment
+venv/
 .env
-uploads/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
 logs/
+*.log
+
+# Uploaded files
+uploads/pdfs/*
+uploads/processed/*
+uploads/chunks/*
+uploads/embeddings/*
+
+# OS files
+.DS_Store
+Thumbs.db
