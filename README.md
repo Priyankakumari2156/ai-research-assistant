@@ -257,6 +257,9 @@ http://localhost:8000/docs
 - Research recommendation engine
 - Knowledge graph visualization
 
+
+-Last deployment test using GitHub Actions.
+
 ---
 
 ## License
